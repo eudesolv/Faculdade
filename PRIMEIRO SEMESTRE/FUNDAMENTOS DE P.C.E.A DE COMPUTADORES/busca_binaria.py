@@ -1,6 +1,6 @@
 def busca_binaria(lista, elemento):
     esquerda = 0
-    #comprimento da lista / indice final da lista -1 
+    # Comprimento da lista / indice final da lista -1 
     direita = len(lista) - 1
 
     while esquerda <= direita:
