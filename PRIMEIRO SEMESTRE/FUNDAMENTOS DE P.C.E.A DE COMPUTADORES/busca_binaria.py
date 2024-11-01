@@ -18,7 +18,7 @@ def busca_binaria(lista, elemento):
     return -1
 
 # Exemplo de uso
-lista = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+lista = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39]
 elemento = int(input("Digite o elemento a ser buscado: "))
 resultado = busca_binaria(lista, elemento)
 
