@@ -1,11 +1,9 @@
 def busca_binaria(lista, elemento):
     esquerda = 0
-    # Comprimento da lista / indice final da lista -1 
     direita = len(lista) - 1
 
     while esquerda <= direita:
         meio = (esquerda + direita) // 2
-        # Mostra a parte da lista sendo analisada
         print(f"Procurando na metade da lista: {lista[esquerda:direita+1]}") 
 
         if lista[meio] == elemento:
@@ -17,7 +15,6 @@ def busca_binaria(lista, elemento):
 
     return -1
 
-# Exemplo de uso
 lista = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39]
 elemento = int(input("Digite o elemento a ser buscado: "))
 resultado = busca_binaria(lista, elemento)
