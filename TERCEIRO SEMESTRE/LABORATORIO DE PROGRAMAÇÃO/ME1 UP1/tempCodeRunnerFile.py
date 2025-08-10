@@ -1,1 +1,0 @@
- número {numero} aparece mais de uma vez na 
