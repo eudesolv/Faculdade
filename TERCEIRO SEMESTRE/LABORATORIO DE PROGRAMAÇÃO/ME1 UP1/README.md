@@ -1,3 +1,3 @@
-<h1"> Exercicios da disciplina Laboratório de Programação </h1>
+Exercicios de Programação
 
-Método avaliativo da disciplina, questões apresentadas nesse repositório
+Aqui estão presentes exercicios que realizo durante as aulas de programação
