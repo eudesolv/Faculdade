@@ -33,4 +33,4 @@ def main():
     print(f"{len(tweets)} tweets salvos!")
 
 if __name__ == "__main__":
-    main()
+    main()  
